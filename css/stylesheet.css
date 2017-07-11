@@ -1,0 +1,233 @@
+.fade-in-up{
+    animation-name: slideInUp;
+    animation-fill-mode: both;
+    animation-duration: 500ms;
+}
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 5%, 0);
+    transform: translate3d(0, 5%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate-second{
+    animation-delay: 20ms;
+}
+.animate-last{
+    animation-delay: 40ms;
+}
+body{
+    background-color: #20395C;
+}
+.blue{
+    background-color: #0E4A7E;
+}
+.new-blue{
+    background-color: #86a4be;
+}
+.dark-gray{
+    /*background-color: #dbdbdb;*/
+    background-color: #33383d;
+}
+.gray {
+    background-color: #BCBCBC;
+}
+.black{
+    background-color: #1F1D17;
+}
+.green{
+    /*background-color: #237019;*/
+    background-color: #6b9a65/*#D1F4CD*/;;
+}
+.brown{
+    background-color: #a06c54;
+}
+.white{
+    background-color: #ebebeb;
+}
+.red{
+    background-color:#E0483F
+}
+.yellow{
+    /*background-color: #bc8a02;*/
+    background-color: #FEE9AE;
+}
+.purple{
+    /*background-color: #270729;*/
+    background-color: #F3CBF6;
+}
+header, footer {
+    /*background-color:#1B5BB9;*/
+    background-color: #fff;
+    color: #1F1D17;
+}
+.twitter-follow-button{
+    min-width: 166px;
+}
+.nav-button{ 
+     display: inline-block;
+     line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+   padding: 25px 15px;
+   color: #1F1D17;
+   text-decoration: none;
+   font-size: 18px;
+}
+.links {
+display: flex;
+justify-content: flex-end;
+    text-align: center;
+    *letter-spacing: normal;
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed; 
+}
+
+
+.skew{
+    transform: skewx(-80deg, 10);
+}
+.counter-skew{
+    transform: skewx(20deg, -30);
+}
+.cotton-background{
+    background-image: url(image/cotton_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.has-text-centered{
+    text-align: center;
+}
+.has-text-left{
+    text-align: left;
+}
+.has-text-right{
+    text-align: right;
+}
+.label{
+    font-size: 26px;
+}
+.has-border{
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .5), 0px 0px 1px rgba(0, 0, 0, .5);
+}
+.map{
+    background-color: white;
+}
+.confirmer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.covered{
+    color: #b3ce6c;
+}
+.not-covered{
+    color: #E0483F;
+}
+.icon{
+  display: inline-block;
+  font-size: 21px;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  vertical-align: top;
+  width: 1.5rem;
+}
+.icon .fa {
+  font-size: inherit;
+  line-height: inherit;
+}
+.box {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  display: block;
+  padding: 1.25rem;
+}
+.mid-level{
+    height: 50%;
+    width: 100%;
+    padding: 15px;
+    background:linear-gradient(to right, rgba(35, 112, 25, 0) 0%, rgba(35, 112, 25, 1) 49%, rgba(35, 112, 25, 1) 100%), url('mid_level_copy.jpg') no-repeat;
+    background-size: 50% auto;
+}
+.plan{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+.buisness-plan{
+  
+    height: 120px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.white-font {
+    color: #e9f5f4 !important; 
+}
+input[type=text], textarea, input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E2E2E2;
+}
+input[type=submit] {
+    padding: 5px 25px;
+    background-color: #6EA4BF;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    margin: 0px 10px;
+}
+input[type=reset] {
+    padding: 5px 25px;
+    background-color: #6EA4BF;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    margin: 0px 10px;
+}
+.options {
+    display:flex;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    color:blue;
+}
+form {
+    padding: 20px;
+}
+.contact-column {
+    border-left: 1px solid #888;
+    padding: 15px 0px 15px 15px;
+}
+.contact-heading {
+    font-size: 16px;
+    font-weight: bold;
+}
+.login {
+    color:black;;
+    max-width: 300px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+}
+.title-icon {
+    float:left;
+}
+.login-heading {
+    float:right;
+    text-transform: uppercase;
+}
