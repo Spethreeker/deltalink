@@ -3,10 +3,7 @@
 <head>
     <title>Login - Delta Link, LLC.</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bulma.css">
-     <link rel="stylesheet" href="css/stylesheet.css">
-     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <link rel="icon" href="images/icon.png">
+    <?php include("head.php");?>
 </head>
 <body>
 <?php include("header.php")?>
