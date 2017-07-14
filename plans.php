@@ -4,13 +4,13 @@
 <head>
     <title>Plans - Delta Link, LLC.</title>
     <meta charset="utf-8">
-    <?php include("head.php");?>
+    <?php include("head.inc");?>
 </head>
 
 <body>
-    <?php include("header.php")?>
+    <?php include("navbar.inc")?>
     <main>
-        <div class="">
+        <div class="container">
             <div class="hero">
                 <div class="hero-body blue">
                     <h1 class="title is-1 has-text-centered white-font">Residential Plans</h1>
@@ -18,8 +18,8 @@
             </div>
                     <div class="columns has-text-centered">
                         <div class="column">
-                            <div class="box putter-plan">
-                                <h1 class="title is-2 has-text-centered white-font">Putter Plan</h1>
+                            <div class="box gray_3">
+                                <h1 class="title is-2 has-text-centered white-font">Basic Plan</h1>
                                 <p class="subtitle help is-light">Technically a connection</p>
                                 <div class="plan">
                                     <img class="image" src="images/basic_plan_wifi.png"
@@ -49,8 +49,8 @@
                             </div>
                         </div>
                         <div class="column">
-                            <div class="box plus-plan-gray">
-                                <h1 class="title is-2 has-text-centered white-font">Plus+ Plan</h1>
+                            <div class="box gray_2">
+                                <h1 class="title is-2 has-text-centered white-font">Advanced Plan</h1>
                                 <p class="subtitle help is-light">Reccomended</p>
                                 <div class="plan">
                                     <!-- <img class="image" src="images/black_medium_wifi.png"> -->
@@ -79,11 +79,11 @@
                             </div>
                         </div>
                         <div class="column">
-                            <div class="box power-plan-gray">
-                                <h1 class="title is-2 has-text-centered">Power Plan</h1>
+                            <div class="box gray_1">
+                                <h1 class="title is-2 has-text-centered">Extreme Plan</h1>
                                  <p class="subtitle help is-dark">Never buffer again</p>
                                 <div class="plan">
-                                    <img class="image" src="images/best_plan_wifi.png">
+                                    <img class="image" src="images/extreme_plan.png">
                                 </div>
                                 <h2 class="title is-2 has-text-centered">$99 /month</h2>
                                 <!-- <h2 class="subtitle is-3">Up to 10mb Down, 2mb Up</h2> -->
@@ -201,15 +201,7 @@
             &nbsp;
         </div>
     </main>
-    <footer>
-        <div class="wrapper">
-            <div class="container has-text-centered">
-                <p>662-545-3467 | 631 Gaines Hwy<br> Boyle, MS 38730</p>
-                <p> &copy; DELTALINK LLC 2017</p>
-            </div>
-        </div>
-
-    </footer>
+    <?php include("footer.inc");?>
 </body>
 
 </html>

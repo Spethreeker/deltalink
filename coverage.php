@@ -3,10 +3,10 @@
 <head>
     <title>Contact - Delta Link, LLC.</title>
     <meta charset="utf-8">
-   <?php include("head.php");?>
+   <?php include("head.inc");?>
 </head>
 <body>
-<?php include("header.php")?>
+<?php include("navbar.inc")?>
 <main class="container">
     <div class="hero">
         <div class="hero-body blue">

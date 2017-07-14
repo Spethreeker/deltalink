@@ -4,10 +4,10 @@
     <title>About - Delta Link, LLC.</title>
     <meta charset="utf-8">
     
-   <?php include("head.php");?>
+   <?php include("head.inc");?>
 </head>
 <body>
-<?php include("header.php")?>
+<?php include("navbar.inc")?>
 <main>
         <section class="hero blue">
   <div class="hero-body has-text-centered">
@@ -28,14 +28,6 @@
   </div><br>
 
 </main>   
-<footer class="footer"  style="margin-top: 100px;">
-    <div class="wrapper">
-        <div class="container has-text-centered">
-            <p>662-545-3467 | 631 Gaines Hwy<br>
-            Boyle, MS 38730</p>
-            <p> &copy; DELTALINK LLC 2017</p>
-        </div>
-    </div>
-</footer>
+
 </body>
 </html>

@@ -4,11 +4,10 @@
 <head>
     <title>Home - Delta Link, LLC.</title>
     <meta charset="utf-8">
-    <?php include("head.php");?>
+    <?php include("head.inc");?>
 </head>
-
 <body>
-    <?php include("header.php");?>
+    <?php include("navbar.inc");?>
     <main class="container">
         <section>
             <div class="hero">
@@ -65,7 +64,7 @@
             </div>
         </div>
     </main>
-    <?php include("footer.php");?>
+    <?php include("footer.inc");?>
 </body>
 
 </html>

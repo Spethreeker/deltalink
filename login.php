@@ -3,10 +3,10 @@
 <head>
     <title>Login - Delta Link, LLC.</title>
     <meta charset="utf-8">
-    <?php include("head.php");?>
+    <?php include("head.inc");?>
 </head>
 <body>
-<?php include("header.php")?>
+<?php include("navbar.inc")?>
 <main>
     <h3 class="title is-2 has-text-centered white-font">Manage your billing and information</h3>
     <h3 class="subtitle is-3 has-text-centered white-font">Login</h3>
