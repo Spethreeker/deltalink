@@ -9,9 +9,9 @@
 <?php include("navbar.inc")?>
 <main class="container">
     <div class="hero">
-        <div class="hero-body blue">
-    <h3 class="title is-1 has-text-centered white-font">Contact Us</h3>
-        </div>
+      <div class="hero-body blue">
+        <h3 class="title is-1 has-text-centered white-font">Contact Us</h3>
+      </div>
     </div>
 <div class="container notification">
     <div class="columns white">
@@ -51,7 +51,7 @@
         <div class="contact-column">
           <span class="strip"> <i class="fa fa-address-book-o fa-2x" aria-hidden="true" style="float: left;">&nbsp;</i>
             <h3 class="contact-heading">Phone Number</h3></span>
-                <blockquote><u>(662)-719-0187</u>
+                <blockquote><u>(662)-545-3467</u>
                 </blockquote>
         </div>
         <div class="contact-column">
