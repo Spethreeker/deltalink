@@ -3,7 +3,7 @@
 
 <head>
     <title>Home - Delta Link, LLC.</title>
-    <meta charset="utf-8">
+   
     <?php include("head.inc");?>
 </head>
 <body>
@@ -58,10 +58,10 @@
         </section>
         <div class="content container">
             <h1 class="title is-2 white-font">Our Coverage Area</h1>
-            <h3 class="title is-4 white-font">We cover a large part of the Delta, but what we cannot cover is what is inside the town. If we try to provide
+            <p class="subtitle is-5 white-font">We cover a large part of the Delta, but what we cannot cover is what is inside the town. If we try to provide
                 to those in town, the signal is more likely to be interrupted causing it to have a weak signal. We provide
                 to those out in the country.</h3>
-            <h3 class="subtitle is-3 white-font has-text-centered">Areas</h3>
+            <h3 class="subtitle is-3 white-font has-text-centered">Areas</p>
             <div class="has-text-centered">
                 <img src="images/map-coverage.PNG" alt="Coverage Map">
             </div>

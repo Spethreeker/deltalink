@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Contact - Delta Link, LLC.</title>
-    <meta charset="utf-8">
+    
    <?php include("head.inc");?>
 </head>
 <body>

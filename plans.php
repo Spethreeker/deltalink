@@ -3,7 +3,6 @@
 
 <head>
     <title>Plans - Delta Link, LLC.</title>
-    <meta charset="utf-8">
     <?php include("head.inc");?>
 </head>
 
