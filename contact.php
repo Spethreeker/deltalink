@@ -51,7 +51,7 @@
         <div class="contact-column">
           <span class="strip"> <i class="fa fa-address-book-o fa-2x" aria-hidden="true" style="float: left;">&nbsp;</i>
             <h3 class="contact-heading">Phone Number</h3></span>
-                <blockquote><u>(662)-545-3467</u>
+                <blockquote><u>(662)-545-3466</u>
                 </blockquote>
         </div>
         <div class="contact-column">
