@@ -6,9 +6,9 @@
    
     <?php include("head.inc");?>
 </head>
-<body>
+<body class="">
     <?php include("navbar.inc");?>
-    <main class="container">
+    <main>
         <section>
             <div class="hero">
                 <div class="hero-body blue">
