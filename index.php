@@ -13,7 +13,7 @@
             <div class="hero">
                 <div class="hero-body blue">
                   <h1 class="title white-font is-2">Internet for rural areas.</h1>
-                  <p class="subtitle white-font is-4">If you live out of town, you might live in our coverage area</p>
+                  <p class="subtitle white-font is-4">If you live out of town and you need Internet service, you're in the right place.</p>
                   <a class="button is-outlined is-white" href="coverage.php">See if you're covered!</a>
                 </div>
             </div>
