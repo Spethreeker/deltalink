@@ -22,13 +22,13 @@
               target="_blank">Login</a>
               <div class="field is-grouped is-grouped-right">
                 <div class="navbar-item">
-                  <a href="https://twitter.com/DeltaLink_net" class="button" style=" border-color: rgba(0, 0, 0, 0); color: #1DA1F2;" data-show-count="false">
-                    <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                  <a href="https://twitter.com/DeltaLink_net" class="button is-outlined is-light" style="border-color: rgba(0, 0, 0, 0); color: #1DA1F2;" data-show-count="false">
+                    <span class=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></span>
                     </a>
                 </div>
                 <div class="navbar-item">
                   <a class="button is-outlined is-light" style="border-color: rgba(0, 0, 0, 0); color: #3B5998;">
-                    <span class="icon"><i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
                     </span>
                     </a>
                 </div>

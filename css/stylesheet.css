@@ -159,4 +159,13 @@ form {
     .signup-iframe{
         width: 99%;
     }
+    .title.is-1{
+         font-size: 2.6rem; 
+    }
+    .title.is-2{
+        font-size: 2.125rem;
+    }
+    .title.is-3{
+        font-size: 1.79rem;
+    }
 }

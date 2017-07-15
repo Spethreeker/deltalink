@@ -13,7 +13,7 @@
             <div class="hero">
                 <div class="hero-body blue">
                     <h1 class="title is-1 has-text-centered white-font">Residential Plans</h1>
-                    <p class="subtitle help is-light has-text-centered">Plans best for households</p>
+                    <p class="subtitle help is-light has-text-centered">Plans designed for household usage</p>
                 </div>
             </div>
                     <div class="columns has-text-centered">
