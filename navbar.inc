@@ -2,7 +2,7 @@
 <header>
     <nav class="navbar">
         <div class="navbar-brand">
-            <a class="navbar-item" href="index.html"><img style="max-height: 100%; width: 150px;" src="dlink_logo.png" /></a>
+            <a class="navbar-item" href="index.php"><img style="max-height: 100%; width: 150px;" src="dlink_logo.png" /></a>
             <div class="navbar-burger" onclick="showMenu()" id="navbar-burger">
             <span></span>
             <span></span>
@@ -20,9 +20,19 @@
             <a class="navbar-item" 
               href="https://secure7.userservices.net/csm_v7/?database=live&isprealm=deltalinknet.com&appuser_id=14360&key=1e28284f59e926547bb6793ad8723722" 
               target="_blank">Login</a>
-            <div class="navbar-item">
-                <a href="https://twitter.com/DeltaLink_net" class="button is-outlined is-info is-small" data-show-count="false">Follow @DeltaLink_net</a>
-            </div>
+              <div class="field is-grouped is-grouped-right">
+                <div class="navbar-item">
+                  <a href="https://twitter.com/DeltaLink_net" class="button" style=" border-color: rgba(0, 0, 0, 0); color: #1DA1F2;" data-show-count="false">
+                    <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    </a>
+                </div>
+                <div class="navbar-item">
+                  <a class="button is-outlined is-light" style="border-color: rgba(0, 0, 0, 0); color: #3B5998;">
+                    <span class="icon"><i class="fa fa-facebook" aria-hidden="true"></i>
+                    </span>
+                    </a>
+                </div>
+              </div>
           </div>
         </div>
     </nav>

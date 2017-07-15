@@ -4776,11 +4776,9 @@ a.nav-item:not(.button).is-tab.is-active {
 .navbar-burger:hover {
   background-color: whitesmoke;
 }
-
 .navbar-burger.is-active span {
   background-color: lightcoral;
 }
-
 .navbar-burger.is-active span:nth-child(1) {
   margin-left: -5px;
   -webkit-transform: rotate(45deg);

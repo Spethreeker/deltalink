@@ -12,14 +12,17 @@
         <section>
             <div class="hero">
                 <div class="hero-body blue">
-                <h1 class="title white-font is-2">Internet for rural areas.</h1>
-                <p class="subtitle white-font is-4">If you live out of town, you might live in our coverage area</p>
+                  <h1 class="title white-font is-2">Internet for rural areas.</h1>
+                  <p class="subtitle white-font is-4">If you live out of town, you might live in our coverage area</p>
+                  <a class="button is-outlined is-white" href="coverage.php">See if you're covered!</a>
                 </div>
-                <div class="hero-foot gray_3">
-                <div class="columns has-text-centered">
-                    <div class="column">
-                        <h1 class="title is-2 white-font">How Our Internet Works</h1>
-                        <h3 class="subtitle is-4 white-font"> Our wireless uses anntenaes and radio dishes to reach where no other service providers can. We use
+            </div>
+                <div class="hero gray_3">
+                  <div class="hero-body">
+                      <div class="columns">
+                    <div class="column ">
+                        <h1 class="title is-2 white-font has-text-centered">How Our Internet Works</h1>
+                        <h3 class="subtitle is-5 white-font"> Our wireless uses anntenaes and radio dishes to reach where no other service providers can. We use
                             industry-leading products and cutting-edge ideas to bring you the best service possible.</h3>
                     </div>
                     <div class="column is-one-third is-offset-2 is-hidden-mobile">
@@ -27,15 +30,15 @@
                             <img src="images/airmaxx_dish.png" />
                         </figure>
                     </div>
-                </div>
+                      </div>
+                  </div>
             </div>
             </div>
         </section>
-        <section class="section gray_1">
-            <div class="container has-text-centered">
+        <section class="section has-text-centered gray_1">
                 <h1 class="title is-2 has-text-centered">Why Choose Us</h1>
                 <div class="columns">
-                    <div class="column  green"><br>
+                    <div class="column has-text-centered green"><br>
                         <i class="fa fa-bolt fa-5x white-font" aria-hidden="true"></i>
                         <h2 class="title has-text-centered white-font">Low Latency</h2>
                         <p class="subtitle white-font">Our internet has the lowest latency in the Delta.</p>
@@ -51,7 +54,7 @@
                         <p class="subtitle has-text-centered white-font">Better deals at better prices</p>
                     </div>
                 </div>
-            </div>
+            
         </section>
         <div class="content container">
             <h1 class="title is-2 white-font">Our Coverage Area</h1>

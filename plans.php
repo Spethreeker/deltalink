@@ -115,6 +115,7 @@
             <div class="hero blue">
                 <div class="hero-body">
             <h1 class="has-text-centered title is-2 white-font">Buisness Plans</h1>
+            <p class="subtitle help is-light has-text-centered">Buisiness plans recieve higher priority tech support</p>
                 </div>
         </div>
             <div class="columns box white has-text-centered">
