@@ -4,6 +4,7 @@
     <title>Login - Delta Link, LLC.</title>
     <meta charset="utf-8">
     <?php include("head.inc");?>
+    
 </head>
 <body>
 <?php include("navbar.inc")?>

@@ -3,25 +3,9 @@
     animation-fill-mode: both;
     animation-duration: 500ms;
 }
-@keyframes slideInUp {
-  from {
-    -webkit-transform: translate3d(0, 5%, 0);
-    transform: translate3d(0, 5%, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-.animate-second{
-    animation-delay: 20ms;
-}
-.animate-last{
-    animation-delay: 40ms;
-}
 body{
     background-color: #20395C;
+    background-image: linear-gradient(180deg, #20395C 0%, #203d5c 71%, #20425c 100%);
     font-family: 'Montserrat', sans-serif;
 }
 .blue{
@@ -53,7 +37,7 @@ body{
 }
 .green{
     /*background-color: #237019;*/
-    background-color: #6b9a65/*#D1F4CD*/;;
+    background-color: #6b9a65/*#D1F4CD*/;
 }
 .brown{
     background-color: #a06c54;
@@ -144,17 +128,6 @@ form {
 .title-icon {
     float:left;
 }
-@keyframes slideInUp {
-  from {
-    -webkit-transform: translate3d(0, 5%, 0);
-    transform: translate3d(0, 5%, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 @media screen and (max-width: 768px) {
     .signup-iframe{
         width: 99%;
@@ -169,3 +142,41 @@ form {
         font-size: 1.79rem;
     }
 }
+.animated {
+  animation-duration: .4s;
+  animation-fill-mode: both;
+}
+.animated-second{
+    animation-delay: .2s
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: hidden;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    
+  }
+}
+.slideInDown {
+  animation-name: slideInDown;
+  animation-duration: .4s
+}
+
+@keyframes slideOutUp {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -120%, 0);
+  }
+}
+.slideOutUp {
+  animation-name: slideOutUp;
+  animation-duration: .4s
+}
+

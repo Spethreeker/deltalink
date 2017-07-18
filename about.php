@@ -8,7 +8,7 @@
 <body>
 <?php include("navbar.inc")?>
 <main class="container">
-  <section class="hero blue">
+  <section class="hero">
     <div class="hero-body has-text-centered">
       <h1 class="title is-1 white-font">
         About Us

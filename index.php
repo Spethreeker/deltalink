@@ -3,32 +3,38 @@
 
 <head>
     <title>Home - Delta Link, LLC.</title>
-   
     <?php include("head.inc");?>
+    <style>
+      .first-banner{
+          background-image: url('images/banners/corn_field_banner.png');
+          background-position: bottom;
+          background-repeat: no-repeat;
+          background-size: cover;
+          
+      }
+    </style>
 </head>
-<body class="">
+<body>
     <?php include("navbar.inc");?>
     <main>
         <section>
             <div class="hero">
-                <div class="hero-body blue">
-                  <h1 class="title white-font is-2">Internet for rural areas.</h1>
-                  <p class="subtitle white-font is-4">If you live out of town and you need Internet service, you're in the right place.</p>
+                <div class="hero-body first-banner">
+                  <h1 class="title white-font is-2">Internet access for rural areas.</h1>
+                  <p class="subtitle white-font is-4">If you live out of town and you need Internet service, you've come to the right place.</p>
                   <a class="button is-outlined is-white" href="coverage.php">See if you're covered!</a>
                 </div>
             </div>
                 <div class="hero gray_3">
                   <div class="hero-body">
                       <div class="columns">
-                    <div class="column ">
-                        <h1 class="title is-2 white-font has-text-centered">How Our Internet Works</h1>
-                        <h3 class="subtitle is-5 white-font"> Our wireless uses anntenaes and radio dishes to reach where no other service providers can. We use
-                            industry-leading products and cutting-edge ideas to bring you the best service possible.</h3>
+                    <div class="column is-hidden-mobile">
+                            <img src="images/airmaxx_dish.png" alt="Our internet service uses anntenaes such as this radio dish"/>
                     </div>
-                    <div class="column is-one-third is-offset-2 is-hidden-mobile">
-                        <figure class="image">
-                            <img src="images/airmaxx_dish.png" />
-                        </figure>
+                    <div class="column">
+                        <h1 class="title is-2 white-font">How Our Internet Reaches You</h1>
+                        <p class="subtitle is-5 white-font"> Our wireless uses anntenaes and radio dishes to reach where no other service providers can. We use
+                            industry-leading products and cutting-edge ideas to bring you the best service possible.</p>
                     </div>
                       </div>
                   </div>
@@ -56,16 +62,22 @@
                 </div>
             
         </section>
-        <div class="content container">
-            <h1 class="title is-2 white-font">Our Coverage Area</h1>
-            <p class="subtitle is-5 white-font">We cover a large part of the Delta, but what we cannot cover is what is inside the town. If we try to provide
-                to those in town, the signal is more likely to be interrupted causing it to have a weak signal. We provide
-                to those out in the country.</h3>
-            <h3 class="subtitle is-3 white-font has-text-centered">Areas</p>
+        <section class="section brown">
+            <div class="columns">
+              <div class="column">
+                <h1 class="title is-2 white-font">Our Coverage Area</h1>
+                  <p class="subtitle is-5 white-font">We cover a large part of the Delta, but what we cannot cover is what is inside the town. If we try to provide
+                    to those in town, the signal is more likely to be interrupted causing it to have a weak signal. We provide
+                    to those out in the country.</p>
+              </div>
+                <div class="column">
+            <p class="subtitle is-3 white-font has-text-centered">Areas</p>
             <div class="has-text-centered">
                 <img src="images/map-coverage.PNG" alt="Coverage Map">
             </div>
+            </div>
         </div>
+        </section>
     </main>
     <?php include("footer.inc");?>
 </body>

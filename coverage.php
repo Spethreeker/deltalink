@@ -8,7 +8,7 @@
 <?php include("navbar.inc")?>
 <main class="container">
     <div class="hero">
-      <div class="hero-body blue">
+      <div class="hero-body">
         <h3 class="title is-1 has-text-centered white-font">Can I Get Service?</h3>
       </div>
     </div>

@@ -7123,7 +7123,7 @@ label.panel-block:hover {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  background-color: white;
+  /* background-color: white; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
