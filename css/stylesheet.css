@@ -78,15 +78,6 @@ justify-content: flex-end;
     overflow-x: scroll;
     overflow-y: none;
 }
-.plan{
-    display: flex;
-    align-content:center;
-    justify-content: center;
-}
-.plan .image{
-    width: 150px;
-    height: 150px;
-}
 .buisness-plan{
     height: 120px;
     display: flex;

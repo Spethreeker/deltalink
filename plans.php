@@ -4,6 +4,17 @@
 <head>
     <title>Plans - Delta Link, LLC.</title>
     <?php include("head.inc");?>
+    <style>
+    .plan{
+      display: flex;
+      align-content:center;
+      justify-content: center;
+    }
+    .plan .image{
+      width: 150px;
+      height: 150px;
+    }
+    </style>
 </head>
 
 <body>
@@ -27,7 +38,7 @@
                                 </div>
                                 <h2 class="title is-2 white-font">$49 /month</h2>
                                 <!-- <h2 class="subtitle is-3 white-font">1.5mb Down, 0.5 Up</h2> -->
-                                 <p class="subtitle is-4 white-font">1.5 Mbps<span class="icon"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></span></p>
+                                 <p class="subtitle is-3 white-font">1.5 Mbps<span class="icon"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></span></p>
                                 
                                 <table class="table">
                                     <tr>
