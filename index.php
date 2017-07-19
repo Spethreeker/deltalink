@@ -28,6 +28,7 @@
                 <div class="hero gray_3">
                   <div class="hero-body">
                       <div class="columns">
+                      <div class="column is-1 is-hidden-touch"></div>
                     <div class="column is-hidden-mobile">
                             <img src="images/airmaxx_dish.png" alt="Our internet service uses anntenaes such as this radio dish"/>
                     </div>
@@ -36,6 +37,7 @@
                         <p class="subtitle is-5 white-font"> Our wireless uses anntenaes and radio dishes to reach where no other service providers can. We use
                             industry-leading products and cutting-edge ideas to bring you the best service possible.</p>
                     </div>
+                    <div class="column is-1 is-hidden-mobile"></div>
                       </div>
                   </div>
             </div>
