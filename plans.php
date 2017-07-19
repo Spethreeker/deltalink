@@ -22,7 +22,7 @@
                                 <h1 class="title is-2 has-text-centered white-font">Basic Plan</h1>
                                 <p class="subtitle help is-light">Technically a connection</p>
                                 <div class="plan">
-                                    <img class="image" src="images/basic_plan_wifi.png"
+                                    <img class="image" src="images/plans/basic_plan_wifi.png"
                                     >
                                 </div>
                                 <h2 class="title is-2 white-font">$49 /month</h2>
@@ -54,7 +54,7 @@
                                 <p class="subtitle help is-light">Reccomended</p>
                                 <div class="plan">
                                     <!-- <img class="image" src="images/black_medium_wifi.png"> -->
-                                    <img class="image" src="images/old_mid_plan_wifi.png">
+                                    <img class="image" src="images/plans/old_mid_plan_wifi.png">
                                 </div>
                                 <h2 class="title is-2 white-font">$69 /month</h2>
                                 <!-- <h2 class="subtitle is-3 white-font">Up to 6mb Down, 2mb Up</h2> -->
@@ -83,7 +83,7 @@
                                 <h1 class="title is-2 has-text-centered">Extreme Plan</h1>
                                  <p class="subtitle help is-dark">Never buffer again</p>
                                 <div class="plan">
-                                    <img class="image" src="images/extreme_plan.png">
+                                    <img class="image" src="images/plans/extreme_plan.png">
                                 </div>
                                 <h2 class="title is-2 has-text-centered">$99 /month</h2>
                                 <!-- <h2 class="subtitle is-3">Up to 10mb Down, 2mb Up</h2> -->
@@ -118,9 +118,7 @@
                 </div>
         </div>
             <div class="columns box white has-text-centered">
-
                 <div class="column"><br>
-
                     <div class="buisness-plan">
                         <i class="fa fa-building fa-3x" aria-hidden="true"></i>
                     </div><br>
