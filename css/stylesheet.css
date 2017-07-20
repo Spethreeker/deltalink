@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');.fade-in-up{
+.fade-in-up{
     animation-name: slideInUp;
     animation-fill-mode: both;
     animation-duration: 500ms;

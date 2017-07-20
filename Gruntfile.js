@@ -17,7 +17,7 @@ module.exports = function(grunt){
   },
                 target: {
                     files: {
-                    'css/output.css': ['css/bulma.css', 'css/stylesheet.css']
+                    'css/output.css': ['css/bulma.css', 'css/stylesheet.css', 'css/font-awesome.css']
                     }
                 }
 }
