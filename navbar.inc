@@ -1,4 +1,3 @@
-<?php ?>
 <header>
     <nav class="navbar">
         <div class="navbar-brand">
@@ -11,10 +10,10 @@
         </div>
         <div class="navbar-menu" id="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href="plans.php">Internet Plans</a>
-            <a class="navbar-item" href="coverage.php">Can I Get Service?</a>
-            <a class="navbar-item" href="about.php">About Us</a>
-            <a class="navbar-item" href="contact.php">Contact</a>
+            <a class="navbar-item" href="plans.php" id="plans-link">Internet Plans</a>
+            <a class="navbar-item" href="coverage.php" id="coverage-link">Can I Get Service?</a>
+            <a class="navbar-item" href="about.php"id="about-link">About Us</a>
+            <a class="navbar-item" href="contact.php" id="contact-link">Contact</a>
           </div>
           <div class="navbar-end">
             <a class="navbar-item" 

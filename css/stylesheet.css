@@ -4,19 +4,15 @@
     animation-duration: 500ms;
 }
 body{
-    background-color: #20395C;
-    background-image: linear-gradient(180deg, #20395C 0%, #203d5c 71%, #20425c 100%);
     font-family: 'Montserrat', sans-serif;
 }
-.blue{
-    background-color: #20395C;
-  
+body, .blue{
+    background-image: linear-gradient(180deg, #20395C 0%, #203d5c 71%, #20425c 100%);
 }
 .new-blue{
     background-color: #86a4be;
 }
 .dark-gray{
-    /*background-color: #dbdbdb;*/
     background-color: #33383d;
     color: #eee;
 }
@@ -37,7 +33,8 @@ body{
 }
 .green{
     /*background-color: #237019;*/
-    background-color: #6b9a65/*#D1F4CD*/;
+     /* background-color: #6b9a65;  */
+     background: #7E9D7D; 
 }
 .brown{
     background-color: #a06c54;
@@ -137,10 +134,10 @@ form {
   animation-duration: .4s;
   animation-fill-mode: both;
 }
-.animated-second{
-    animation-delay: .2s
-}
-
+.navbar-menu.is-active{
+    animation-name: slideInDown;
+animation-duration: .4s;
+  animation-fill-mode: both;}
 @keyframes slideInDown {
   from {
     transform: translate3d(0, -100%, 0);
@@ -169,5 +166,20 @@ form {
 .slideOutUp {
   animation-name: slideOutUp;
   animation-duration: .4s
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation-name: fadeIn;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-duration: 1s;
 }
 

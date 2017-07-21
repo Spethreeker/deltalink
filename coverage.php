@@ -26,15 +26,13 @@
     <?php include("contact_aside.inc");?>
         </div>
     </div>
-</main>   
-<footer class="footer" style="margin-top: 100px;">
-    <div class="wrapper">
-        <div class="container has-text-centered">
-            <p>662-719-0187 | 631 Gaines Hwy<br>
-            Boyle, MS 38730</p>
-            <p> &copy; DELTALINK LLC 2017</p>
-        </div>
-    </div>
-</footer>
+</main>
+<?php include('footer.inc');?>   
 </body>
+<script>
+window.onload = function() {
+    that = document.getElementById('coverage-link');
+    that.classList.add('is-active');
+};
+</script>
 </html>

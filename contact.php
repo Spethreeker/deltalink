@@ -84,6 +84,11 @@
     </div>
 </main>   
 <?php include("footer.inc");?>
-</footer>
 </body>
+<script>
+window.onload = function() {
+    that = document.getElementById('contact-link');
+    that.classList.add('is-active');
+};
+</script>
 </html>
