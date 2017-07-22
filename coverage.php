@@ -30,9 +30,9 @@
 <?php include('footer.inc');?>   
 </body>
 <script>
-window.onload = function() {
+
     that = document.getElementById('coverage-link');
     that.classList.add('is-active');
-};
+
 </script>
 </html>

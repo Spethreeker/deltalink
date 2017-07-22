@@ -33,9 +33,7 @@
 <?php include('footer.inc');?>
 </body>
 <script>
-window.onload = function() {
     that = document.getElementById('about-link');
     that.classList.add('is-active');
-};
 </script>
 </html>

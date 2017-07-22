@@ -214,9 +214,9 @@
     <?php include("footer.inc");?>
 </body>
 <script>
-window.onload = function() {
+
     that = document.getElementById('plans-link');
     that.classList.add('is-active');
-};
+
 </script>
 </html>
