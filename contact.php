@@ -10,7 +10,7 @@
 <main class="container">
     <div class="hero">
       <div class="hero-body blue">
-        <h3 class="title is-1 has-text-centered white-font">Contact Us</h3>
+        <h3 class="title is-1 has-text-centered white-font" style="font-weight: 400;"">Contact Us</h3>
       </div>
     </div>
 <div class="container notification">

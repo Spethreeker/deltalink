@@ -23,7 +23,7 @@
         <div class="container">
             <div class="hero">
                 <div class="hero-body">
-                    <h1 class="title is-1 has-text-centered white-font">Residential Plans</h1>
+                    <h1 class="title is-1 has-text-centered white-font" style="font-weight: 400;">Residential Plans</h1>
                     <p class="subtitle help is-light has-text-centered">Plans designed for household usage</p>
                 </div>
             </div>

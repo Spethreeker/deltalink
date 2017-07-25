@@ -129,6 +129,10 @@ form {
     .title.is-3{
         font-size: 1.79rem;
     }
+    .hero-body{
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
 }
 .animated {
   animation-duration: .4s;

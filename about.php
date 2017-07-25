@@ -10,7 +10,7 @@
 <main class="container">
   <section class="hero">
     <div class="hero-body has-text-centered">
-      <h1 class="title is-1 white-font">
+      <h1 class="title is-1 white-font" style="font-weight: 400;">
         About Us
       </h1>
     </div>
