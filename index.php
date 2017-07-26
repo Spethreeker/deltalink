@@ -29,16 +29,16 @@
             <div class="hero">
                 <div class="hero-body first-banner" id="first-banner">
                   <h1 class="title white-font is-2" style="font-weight: 400;">Internet access for rural areas.</h1>
-                  <p class="subtitle white-font is-4">If you live out of town and you need Internet service, you've come to the right place.</p>
+                  <p class="subtitle white-font is-4">If you live out of town and you need Internet service,<br class="is-hidden-touch"/>  you've come to the right place.</p>
                   <a class="button is-outlined is-white" href="coverage.php">Can I Get Service?</a>
                 </div>
             </div>
                 <div class="hero gray_3">
                   <div class="hero-body" id="how-banner">
                     <div class="columns">
-                      <div class="column is-1 is-hidden-touch"></div>
+                       <div class="column is-1 is-hidden-touch"></div> 
                       <div class="column is-4 is-hidden-mobile">
-                        <figure class="image is-2by3">
+                        <figure class="image is-2by3 has-text-centered">
                           <img src="images/airmaxx_dish.png" alt="Our internet service uses anntenaes such as this radio dish" style="max-width: 400px;">
                         </figure>
                       </div>

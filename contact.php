@@ -10,13 +10,13 @@
 <main class="container">
     <div class="hero">
       <div class="hero-body blue">
-        <h3 class="title is-1 has-text-centered white-font" style="font-weight: 400;"">Contact Us</h3>
+        <h3 class="title is-1 has-text-centered white-font" style="font-weight: 400;">Contact Us</h3>
       </div>
     </div>
 <div class="container notification">
     <div class="columns white">
     <div class="column is-8 notification"><br>
-        <h3 class="title is-3 has-text-centered">Questions/Feedback?</h3><p class="subtitle has-text-centered">Tell us all about it</p>
+        <h3 class="title is-3 has-text-centered" style="font-weight: 400;">Questions/Feedback?</h3><p class="subtitle has-text-centered">Tell us all about it</p>
         <form>
             First Name: <input type="text" class="input" name="firstname" id="firstname" required="required"><br><br>
             Last Name: <input type="text" class="input"  name="lastname" id="lastname" required="required"><br><br>

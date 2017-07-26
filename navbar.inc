@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <div class="navbar-item">
-                  <a class="button is-outlined is-light" style="border-color: rgba(0, 0, 0, 0); color: #3B5998;">
+                  <a class="button is-outlined is-light" style="border-color: rgba(0, 0, 0, 0); color: #3B5998;" href="https://www.facebook.com/deltalinkwireless/">
                     <span class=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
                     </span>
                     </a>

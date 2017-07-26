@@ -18,7 +18,7 @@
         <h3 class="contact-heading">Mailing Address</h3> 
         </span>
                 <blockquote> 
-                PO Box 441,
+                PO Box 446,
                 Cleveland, MS 38732
                 </blockquote>
         </div>
