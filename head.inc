@@ -7,5 +7,6 @@
 <link rel="stylesheet" href="css/output.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
 <link rel="icon" href="images/icon.png">
+<script src="https://use.fontawesome.com/402ed58579.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
