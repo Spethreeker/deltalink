@@ -39,7 +39,7 @@
                        <div class="column is-1 is-hidden-touch"></div> 
                       <div class="column is-4 is-hidden-mobile">
                         <figure class="image is-2by3 has-text-centered">
-                          <img src="images/airmaxx_dish.png" alt="Our internet service uses anntenaes such as this radio dish" style="max-width: 400px;">
+                          <img src="images/airmaxx_dish.png" alt="Our internet service uses anntenaes such as this radio dish" style="max-width: 360px;">
                         </figure>
                       </div>
                       <div class="column">
