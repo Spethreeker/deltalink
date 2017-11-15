@@ -16,9 +16,13 @@
             <a class="navbar-item" href="contact.php" id="contact-link">Contact</a>
           </div>
           <div class="navbar-end">
+          <a class="navbar-item" 
+              href="https://goo.gl/forms/GoxTBmBLDpTxwOTh1" 
+              target="_blank">Billing Opt-In</a>
             <a class="navbar-item" 
               href="https://secure7.userservices.net/csm_v7/?database=live&isprealm=deltalinknet.com&appuser_id=14360&key=1e28284f59e926547bb6793ad8723722" 
               target="_blank">Login</a>
+
               <div class="field is-grouped is-grouped-right">
                 <div class="navbar-item">
                   <a href="https://twitter.com/DeltaLink_net" class="button is-outlined is-light" style="border-color: rgba(0, 0, 0, 0); color: #1DA1F2;" data-show-count="false">

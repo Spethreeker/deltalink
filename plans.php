@@ -28,7 +28,7 @@
                 </div>
             </div>
                     <div class="columns has-text-centered">
-                        <div class="column">
+                        <div class="column fadeIn">
                             <div class="box gray_3">
                                 <h1 class="title is-2 has-text-centered white-font">Basic Plan</h1>
                                 <p class="subtitle help is-light">Technically a connection</p>
@@ -59,7 +59,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="column">
+                        <div class="column fadeIn animate-second">
                             <div class="box gray_2">
                                 <h1 class="title is-2 has-text-centered white-font">Advanced Plan</h1>
                                 <p class="subtitle help is-light">Reccomended</p>
@@ -89,7 +89,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="column">
+                        <div class="column fadeIn animate-third">
                             <div class="box gray_1">
                                 <h1 class="title is-2 has-text-centered">Extreme Plan</h1>
                                  <p class="subtitle help is-dark">Never buffer again</p>
