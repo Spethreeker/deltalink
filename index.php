@@ -15,6 +15,11 @@
           background-repeat: no-repeat;
           background-size: cover;
         }
+        .second-banner{
+            background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
         @media screen and (min-width:768px) {
             #how-banner{
                 padding-bottom: 0px;
@@ -33,7 +38,7 @@
                   <a class="button is-outlined is-white" href="coverage.php">Can I Get Service?</a>
                 </div>
             </div>
-                <div class="hero gray_3">
+                <div class="hero second-banner">
                   <div class="hero-body" id="how-banner">
                     <div class="columns">
                        <div class="column is-1 is-hidden-touch"></div> 
